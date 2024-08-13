@@ -1,0 +1,31 @@
+a{
+    color: black;
+    text-decoration: none;
+}
+.saw{
+    color: grey;
+}
+
+h1{
+    font-size: 45px;
+    text-align: center;
+    border-bottom: 1px solid grey;
+    margin: 0;
+    padding: 15px;
+}
+body #lst{
+    border-bottom: 1px solid grey;
+    list-style-position: inside;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+    padding-left: 33px;
+}
+
+@media(max-width:600px){
+    iframe {
+    width: 92.5vw;  /* 뷰포트 너비의 80% */
+    height: calc(92.5vw * 9 / 16); /* 16:9 비율 유지 */
+    }
+
+}
